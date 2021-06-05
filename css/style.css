@@ -1,0 +1,22 @@
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+  margin-right: 20px;
+}
+img {
+  width: 340px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
