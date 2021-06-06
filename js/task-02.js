@@ -10,8 +10,11 @@ const ingredientsList = document.querySelector("#ingredients");
 
 ingredients.forEach((ingredient) => {
   const addElement = document.createElement("li");
+  // console.log(addElement);
   addElement.textContent = ingredient;
-  ingredientsList.appendChild(addElement);
+  // console.log(addElement);
+
+  ingredientsList.append(addElement);
 });
 
 // const createIngredients = (ingredients) => {
